@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cormorant sc;
+}
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+
+}
+.navbar{
+    width: 88%;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 2%;
+}
+.navbar ul li{
+    list-style: none ;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+.navbar ul li a:hover{
+    background-color: rgb(16, 129, 1);
+    font-size: 20px;
+border-radius: 20px;
+padding: 15px;
+
+}
+.left-col{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.left-col h1{
+    font-size: 90px;
+    color: aliceblue;
+    line-height: 110px;
+    float: left;
+    font-family: "cormorant sc" ,sans-serif;
+    text-shadow: 3px 3px rgb(234, 0, 255);
+    transition: 0.5s ease-in-out;
+}
+.left-col h1:hover{
+    transform: matrix(1.2);
+    font-size: 100px;
+    text-shadow: 3px 3px rgb(0, 60, 255);
+}
+.right-col{
+    float: right;
+    margin-right: 8%;
+    margin-top: 18%;
+    display: flex;
+}
+.right-col p{
+    margin-top: -30%;
+    margin-right: -30%;
+    color: aliceblue;
+    font-family: "cormorant sc" ,sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(98, 0, 255);
+    transition: 0.5s ease-out;
+}
+.right-col p:hover{
+    transform: matrix(1.2);
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(255, 0, 221);
+}
+#icon{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#icon:hover{
+    transform: scale(1.2);
+}
